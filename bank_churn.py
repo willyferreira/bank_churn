@@ -1,35 +1,9 @@
+#1. Instalação e importação de pacotes
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot
+import plotly.express as px
+import plotly.graph_objects as go
 
-df = pd.read_csv(
-    filepath_or_buffer='churn.csv'
-)
-
-df.head()
-
-df.rename(
-    columns={
-        'CustomerId': 'Id_Cliente',
-        'Surname': 'Sobrenome', 
-        'CreditScore': 'Score',
-        'Geography': 'Nacionalidade',
-        'Gender': 'Genero',
-        'Age': 'Idade',
-        'Tenure': 'Tempo_Relacionamento',
-        'Balance': 'Saldo',
-        'NumOfProducts': 'Qtd_Produtos',
-        'HasCrCard': 'Tem_CartaoCred',
-        'IsActiveMember': 'Ativo',
-        'EstimatedSalary': 'Salario_Estimado',
-        'Exited': 'ExCliente'
-        },
-    inplace = True
-)
-
-df.head()
-
-df.drop(
-    columns={
-        'RowNumber'
-    },
-    inplace=True
-)
+#2.Leitura do dataframe
+pd.read_csv(filepath_or_buffer = 'churn.csv', encoding = 'UTF-8')
