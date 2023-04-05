@@ -1,7 +1,7 @@
 #1. Instalação e importação de pacotes
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+import seaborn as sns
 import plotly.express as px
 import plotly.graph_objects as go
 
@@ -32,9 +32,4 @@ df = pd.read_csv(filepath_or_buffer = 'churn.csv', encoding = 'UTF-8')
         )
     df.head()
 
-   plt.boxplot(
-    x = df['Score_Credito']
-    notch = True,
-    vert = False
-   )
 
