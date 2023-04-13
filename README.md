@@ -1,3 +1,3 @@
 # Bank Customer Churn
 
-Análise Exploratória
+Realizando a análise exploratória dos dados
