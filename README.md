@@ -7,7 +7,7 @@ Os gráficos estão sendo gerados com a biblioteca Seaborn.
 
 *Exemplo de gráfico:*
 
-[Gráfico](https://github.com/willyferreira/bank_churn/blob/8f40089123610d00277a071d81f0696ecf7bc585/EDA_ScoreCredito.png)
+[Gráfico](https://github.com/willyferreira/bank_churn/blob/a1289386fc9b4efd506b6c65388479fdbb302073/EDA_ScoreCredito.png)
 
 *Lista de tarefas*
 
