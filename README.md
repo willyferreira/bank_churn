@@ -6,7 +6,8 @@ Atualmente realizo a análise exploratória dos dados utilizando as bibliotecas 
 Os gráficos estão sendo gerados com a biblioteca Seaborn.
 
 *Exemplo de gráfico:*
-![alt text](https://github.com/willyferreira/bank_churn/blob/7a95da430e6baa0e5f75cf92eb67688175aeda5f/figures/EDA_ScoreCredito.png)
+
+![Distribuição do Score de Crédito](https://github.com/willyferreira/bank_churn/blob/7a95da430e6baa0e5f75cf92eb67688175aeda5f/figures/EDA_ScoreCredito.png)
 
 *Lista de tarefas*
 
