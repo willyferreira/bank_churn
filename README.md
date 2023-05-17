@@ -7,7 +7,7 @@ Os gráficos estão sendo gerados com a biblioteca Seaborn.
 
 *Exemplo de gráfico:*
 
-[Distribuição do Score de Crédito dos Clientes](https://github.com/willyferreira/bank_churn/blob/b9c199c02bef9630268d12164f38d1b6d2c84ea8/figures/EDA_ScoreCredito.png)
+[Distribuição do Score de Crédito dos Clientes](https://github.com/willyferreira/bank_churn/blob/e46936f898468dc058524c3a364b88969d11e21d/figures/EDA_ScoreCredito.png)
 
 *Lista de tarefas*
 
