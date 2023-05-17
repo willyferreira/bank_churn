@@ -4,6 +4,8 @@ O dataset utilizado para as análises contidas nesse repositório está disponí
 ### Estágio atual das análises
 Atualmente realizo a análise exploratória dos dados, gerando gráficos das variáveis utilizando o pacote Seaborn.
 
+![alt text](https://github.com/willyferreira/bank_churn/blob/60551078a4dc63486f017dfabf68fe8d53f8c2fe/scorecredito.png)
+
 *Lista de tarefas*
 
 
