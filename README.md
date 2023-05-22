@@ -25,17 +25,6 @@ ________________________________________________________________
 
 **Matriz de correlação:**
 
-```
-#Criação dos subplots
-fig, axs = plt.subplots(ncols = 1, nrows = 2, sharex=True, height_ratios=[0.8, 0.2])
-#Título da imagem
-plt.suptitle('Distribuição do Score de Crédito')
-#Gráfico 1 - Histograma
-sns.histplot(x = df.ScoreCredito, kde = True, ax = axs[0], stat = 'count', cumulative = False)
-#Gráfico 2 - Boxplot
-sns.boxplot(x = df.ScoreCredito, fliersize = 2, notch = True, ax = axs[1])
-```
-
-![Distribuição do Score de Crédito](https://github.com/willyferreira/bank_churn/blob/7a95da430e6baa0e5f75cf92eb67688175aeda5f/figures/EDA_ScoreCredito.png)
+![Matriz de Correlação](https://github.com/willyferreira/bank_churn/blob/7a325b44fffb1bdac953ab10acac3abbf9e1e619/figures/Corr_Matriz.png)
 
 
