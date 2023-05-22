@@ -1,11 +1,29 @@
-# Análise de churn - Clientes de Banco 
-## Dataset
-O dataset utilizado para as análises contidas nesse repositório está disponível [nesse link](https://www.kaggle.com/datasets/mathchi/churn-for-bank-customers)
-### Estágio atual das análises
-Atualmente realizo a análise exploratória dos dados utilizando as bibliotecas Numpy e Pandas.
-Os gráficos estão sendo gerados com a biblioteca Seaborn.
+# Churn Rate - Clientes de Banco
 
-**Exemplo de gráfico:**
+## Objetivo do projeto
+O projeto visa a criação de modelo preditivo capaz de identificar o perfil de clientes propensos a cancelar um serviço/produto em um determinado período de tempo, ação que eleva o "churn rate", métrica utilizada pelas empresas para mensurar a taxa de abandono de sua base, o que impacta diretamente o faturamento.
+
+### Dados utilizados na análise e na criação do modelo
+Para criação do modelo foi utilizado o dataset disponibilizado na plataforma Kaggle, acessível [por esse link](https://www.kaggle.com/datasets/mathchi/churn-for-bank-customers).
+## Estágio atual do projeto
+Atualmente, o projeto está na fase de Análise Exploratória de dados.
+São utilizadas nesse estágio as bibliotecas Numpy e Pandas para manipulação e transformação dos dados, além da biblioteca Seaborn para geração dos gráficos.
+
+### Etapas previstas
+
+- [ ] Análise Exploratória de dados
+  - [x] Análise univariada
+  - [x] Análise bivariada
+  - [ ] Análise multivariada e correlação
+- [ ] Divisão e seleção de features (treino e teste)
+- [ ] Aplicação dos modelos
+- [ ] Resultados estatísticos
+- [ ] Descrição de importância das features
+
+________________________________________________________________
+
+
+**Exemplo de gráficos criados:**
 
 ```
 #Criação dos subplots
@@ -19,12 +37,5 @@ sns.boxplot(x = df.ScoreCredito, fliersize = 2, notch = True, ax = axs[1])
 ```
 
 ![Distribuição do Score de Crédito](https://github.com/willyferreira/bank_churn/blob/7a95da430e6baa0e5f75cf92eb67688175aeda5f/figures/EDA_ScoreCredito.png)
-
-*Lista de tarefas*
-
-
-
-### Objetivo
-Após as análises exploratórias, o objetivo é a criação de modelos preditivos que possam explicar a variável-alvo (Churn). O Churn é uma métrica importante para uma empresa, pois dá aos gestores a noção de quantos clientes cancelaram um serviço ou deixaram de consumir um produto em um determinado período de tempo.
 
 
