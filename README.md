@@ -9,7 +9,7 @@ Para criação do modelo foi utilizado o dataset disponibilizado na plataforma K
 Atualmente, o projeto está na fase de Análise Exploratória de dados.
 São utilizadas nesse estágio as bibliotecas Numpy e Pandas para manipulação e transformação dos dados, além da biblioteca Seaborn para geração dos gráficos.
 
-### Etapas previstas
+### Checklist do projeto
 
 - [ ] Análise Exploratória de dados
   - [x] Análise univariada
@@ -23,7 +23,7 @@ São utilizadas nesse estágio as bibliotecas Numpy e Pandas para manipulação 
 ________________________________________________________________
 
 
-**Exemplo de gráficos criados:**
+**Matriz de correlação:**
 
 ```
 #Criação dos subplots
