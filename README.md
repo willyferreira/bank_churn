@@ -14,7 +14,7 @@ São utilizadas nesse estágio as bibliotecas Numpy e Pandas para manipulação 
 - [ ] Análise Exploratória de dados
   - [x] Análise univariada
   - [x] Análise bivariada
-  - [x] Análise multivariada e correlação
+  - [] Análise multivariada e correlação
 - [ ] Divisão e seleção de features (treino e teste)
 - [ ] Aplicação dos modelos
 - [ ] Resultados estatísticos
