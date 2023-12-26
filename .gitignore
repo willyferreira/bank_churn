@@ -131,3 +131,4 @@ dmypy.json
 archive.zip
 .idea
 churn_Profile.html
+/venv_bank_churn
